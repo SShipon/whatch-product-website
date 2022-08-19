@@ -1,10 +1,12 @@
 import React from 'react';
 import Banner from '../Banner/Banner.jsx';
+import BestProduct from '../BestProduct/BestProduct.jsx';
 
 const Home = () => {
     return (
         <>
-         <Banner></Banner> 
+            <Banner></Banner> 
+            <BestProduct></BestProduct>
         </>
     );
 };

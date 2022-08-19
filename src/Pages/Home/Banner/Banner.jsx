@@ -23,11 +23,25 @@ const Banner = () => {
               wrapper="p"
             />
           </h4>
-          <p>
-            Set of silver smart watches or fitness tracker isolated on white
-            background. Pink Modern Smart Watch Mockup with Strap in Duotone
-            Style. 3d Rendering.
+          <p className="content">
+            We are squarely in the age of the smartphone, but even though our
+            mobile devices are inextricable for our daily lives, there is no
+            reason to abandon a practical and efficient—and
+            mechanical—time-telling tool. Yes, we are talking about watches. And
+            not just any watches, but the best luxury watches from the biggest
+            watch brands in the world. Not
           </p>
+          <br />
+          <button id="btn-hero">
+            {" "}
+            <a
+              href="http://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Get Now
+            </a>
+          </button>
         </Col>
         <Col sm={12} md={6}>
           <div className="ms-5" style={{ width: "400px" }}>
