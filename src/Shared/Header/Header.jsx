@@ -18,8 +18,8 @@ const Header = () => {
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img
-            src="https://i.ibb.co/4KdGnCc/images-removebg-preview.png"
-            height="40"
+            src="https://i.ibb.co/gwrQ8SP/d23b51dd08a77d21cf07f8bca5299c80-removebg-preview.png"
+            height="70"
             alt=""
             srcset=""
           />{" "}
