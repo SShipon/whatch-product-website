@@ -2,13 +2,14 @@ import React, { Fragment } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import watchProduct from '../../../Hooks/watchProduct.jsx';
 import Watch from '../Watch/Watch.jsx';
+import Loading from "../../../Shared/Loading/Loading.jsx";
 
 const Product = () => {
     const [watchs, setWatch] = watchProduct();
-    //console.log(watchs)
-  /*   if (items.length === 0) {
-      return <Loding></Loding>;
-    } */
+   
+    if (watchs.length === 0) {
+      return <Loading></Loading>
+    } 
     return (
       <Fragment>
         <Container>

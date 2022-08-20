@@ -15,9 +15,11 @@ const Banner = () => {
                 1000,
                 "Bangladesh Limited",
                 1000,
-                "Import from Japan, Dubai, India, Pakistan, Russia.",
+                "Import from Japan,Dubai,India",
                 1000,
-                "Cross Platform all business policy",
+                "Pakistan,Russia,China,Canada",
+                1000,
+                "Cross Platform business policy",
               ]}
               loop={Infinity}
               wrapper="p"

@@ -25,6 +25,7 @@ const Watch = (props) => {
             <a id='link-bnt' href="">Buy Now</a>
           </Button>
         </Card>
+     
       </Col>
     );
 };
