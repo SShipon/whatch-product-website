@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <Navbar className="navbar" bg="" expand="lg" sticky="top">
+    <Navbar className="navbar" bg="" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img
@@ -23,7 +23,7 @@ const Header = () => {
             alt=""
             srcset=""
           />{" "}
-          whatch
+          Watch
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="nav-color" />
         <Navbar.Collapse id="basic-navbar-nav ">
@@ -43,14 +43,8 @@ const Header = () => {
             </Nav.Link>
             {user && (
               <>
-                <Nav.Link as={Link} to="/manageItems">
-                  Manage Items
-                </Nav.Link>
-                <Nav.Link as={Link} to="/addItems">
-                  Add Items
-                </Nav.Link>
-                <Nav.Link as={Link} to="/myItems">
-                  My Items
+                <Nav.Link as={Link} to="/explore">
+                 Explore
                 </Nav.Link>
               </>
             )}

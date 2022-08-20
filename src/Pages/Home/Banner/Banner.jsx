@@ -8,7 +8,7 @@ const Banner = () => {
     <Container>
       <Row className="align-items-center justify-content-center">
         <Col sm={12} md={6}>
-          <h4 className="fw-bold Parent-container">
+          <h4 className="fw-bold Parent-container p-4">
             <Typical
               steps={[
                 "Best Whatch house",

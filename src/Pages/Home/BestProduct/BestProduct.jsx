@@ -8,15 +8,15 @@ import img4 from "../../../assets/best/best (4).jpeg";
 const BestProduct = () => {
     return (
       <Fragment>
-        <Container>
+        <Container className="text-center text-md-start text-lg-start">
           <h2 className="my-5 text-center">Best Product </h2>
           <Row>
             <Col lg={6} md={12} sm={12}>
-              <Row className="align-items-center justify-content-center">
-                <Col lg={6} md={12} sm={12}>
+              <Row>
+                <Col lg={6} md={12} sm={12} className="p-2">
                   <img className="bestImg" src={img1} alt="" />
                 </Col>
-                <Col lg={6} md={12} sm={12}>
+                <Col lg={6} md={12} sm={12} className="p-2">
                   <h5>Montblanc</h5>
                   <p className="text-justify">
                     Fine state-of-the-art and especially timepiece, in the
@@ -24,68 +24,76 @@ const BestProduct = () => {
                     1920s and '30s Minerva watches used for military
                     exploration.
                   </p>
-                  <a className="float-left" href="">
+
+                  <a className="myButton" href="">
                     details
                   </a>
                 </Col>
               </Row>
             </Col>
             <Col lg={6} md={12} sm={12}>
-              <Row className="align-items-center justify-content-center">
-                <Col lg={6} md={12} sm={12}>
+              <Row>
+                <Col lg={6} md={12} sm={12} className="p-2">
                   <img className="bestImg" src={img2} alt="" />
                 </Col>
-                <Col lg={6} md={12} sm={12}>
+                <Col lg={6} md={12} sm={12} className="p-2">
                   <h5>Van Cleef & Arpels</h5>
                   <p className="text-justify">
                     Van Cleef & Arpels' Alhambra motif has been a coveted status
                     symbol since its invention in 1968. This watch is the best
                     of both worlds: an elegant timepiece and stunning piece of
-                    jewelry, 
+                    jewelry,
                   </p>
-                  <a href="">details</a>
+
+                  <a className="myButton" href="">
+                    details
+                  </a>
                 </Col>
               </Row>
             </Col>
           </Row>
 
-          <br></br>
+          {/* second cart design */}
+
           <Row>
             <Col lg={6} md={12} sm={12}>
-              <Row className="align-items-center justify-content-center">
-                <Col lg={6} md={12} sm={12}>
+              <Row>
+                <Col lg={6} md={12} sm={12} className="p-2">
                   <img className="bestImg" src={img3} alt="" />
                 </Col>
-                <Col lg={6} md={12} sm={12}>
+                <Col lg={6} md={12} sm={12} className="p-2">
                   <h5>Jaeger-LeCoultre</h5>
                   <p className="text-justify">
                     Established in 1833 in the Swiss Jura Mountains,
                     Jaeger-LeCoultre is known for its clever designs. One of its
                     most notable—and coveted—styles, the Reverso, features a
-                    face that flips over to protect itself within the watch
+                    face that flips over to protect 
                     casing.
                   </p>
-                  <a className="float-left" href="">
+
+                  <a className="myButton" href="">
                     details
                   </a>
                 </Col>
               </Row>
             </Col>
             <Col lg={6} md={12} sm={12}>
-              <Row className="align-items-center justify-content-center">
-                <Col lg={6} md={12} sm={12}>
+              <Row>
+                <Col lg={6} md={12} sm={12} className="p-2">
                   <img className="bestImg" src={img4} alt="" />
                 </Col>
-                <Col lg={6} md={12} sm={12}>
+                <Col lg={6} md={12} sm={12} className="p-2">
                   <h5>Audemars Piguet</h5>
                   <p className="text-justify">
                     Founded by childhood friends Jules-Louis Audemars and
-                    Edward-Auguste Piguet in 1875, Audemars Piguet is 
-                    most collection, which since its
-                    debut in 1972, has become an obligatory status 
-                    every A-lister from 
+                    Edward-Auguste Piguet in 1875, Audemars Piguet is most
+                    collection, which since its debut in 1972, has become an
+                    
                   </p>
-                  <a href="">details</a>
+
+                  <a className="myButton" href="">
+                    details
+                  </a>
                 </Col>
               </Row>
             </Col>
