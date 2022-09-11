@@ -6,8 +6,9 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { signOut } from "firebase/auth";
 import auth from "../../firebase.init.jsx";
 
+
 const Header = () => {
-  const [user] = useAuthState(auth);
+  const [user] = useAuthState(auth)
 
   const handleSignOut = () => {
     signOut(auth);
@@ -32,9 +33,7 @@ const Header = () => {
             <Nav.Link as={Link} to="/">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/blog">
-              Blog
-            </Nav.Link>
+      
             <Nav.Link as={Link} to="/about">
               About
             </Nav.Link>
